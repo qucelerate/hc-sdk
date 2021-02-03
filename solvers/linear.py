@@ -37,10 +37,12 @@ class QiskitLinearSolver(AbstractLinearSolver):
                  backend: BaseBackend,
                  num_ancillae: int = 5,
                  num_time_slices: int = 50,
+                 optimization_level: int = 3,
                  negative_evals: bool = False):
         self.backend = backend
         self.num_ancillae = num_ancillae
         self.num_time_slices = num_time_slices
+        self.optimization_level = optimization_level
         self.negative_evals = negative_evals
 
     def create_eigs(self, matrix, num_ancillae, num_time_slices, negative_evals):
@@ -76,7 +78,7 @@ class QiskitLinearSolver(AbstractLinearSolver):
         algo = HHL(matrix, vector, truncate_powerdim, truncate_hermitian, eigs,
                    init_state, reci, num_q, num_a, orig_size)
 
-        result = algo.run(QuantumInstance(self.backend))
+        result = algo.run(QuantumInstance(self.backend, optimization_level=self.optimization_level))
         return result['solution']
 
 

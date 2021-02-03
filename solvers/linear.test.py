@@ -30,7 +30,7 @@ class QiskitLinearSolverTest(unittest.TestCase):
         fidelity = get_fidelity(quantum_result, classical_result)
         npt.assert_almost_equal(fidelity, 1.0)
 
-    @unittest.skip
+    @unittest.skip("Requires API key")
     def test_solve_ibm_quantum_experience(self):
         IBMQ.save_account(os.getenv('QE_API_KEY'), overwrite=True)
         provider = IBMQ.load_account()
