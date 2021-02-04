@@ -2,3 +2,5 @@ qiskit==0.23.4
 numpy==1.20.0
 matplotlib==3.3.4
 qiskit-aer-gpu==0.7.3
+amazon-braket-sdk==1.5.8
+torch==1.7.1
