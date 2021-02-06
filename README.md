@@ -7,4 +7,8 @@ of accelerator such as GPU/TPU.
 
 ## Algorithms
 
-* Linear solvers (Qiskit, NumPy)
+* Linear solvers
+  * Qiskit (unoptimized)
+  * NumPy
+  * PyTorch
+  * AWS Braket support is coming...
