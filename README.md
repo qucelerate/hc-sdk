@@ -11,8 +11,8 @@ qlib is a quantum computing library for solving various math/compute problems. W
   * PyTorch
   * AWS Braket support is coming...
 * Scheduling
-  * Heterogeneus scheduling for general purpose computing (to be started when some of the base algos are supported by qlib)
+  * Heterogeneous scheduling for general purpose computing (to be started when some of the base algos are supported by qlib)
 
 ## Modules
 
-The idea is to separate abstraction layer from implementation at a later point when a sufficient number of algorithms is implemneted (sufficient for demonstrating Heterogeneus scheduling).
+The idea is to separate abstraction layer from implementation at a later point when a sufficient number of algorithms is implemneted (sufficient for demonstrating heterogeneous scheduling).
