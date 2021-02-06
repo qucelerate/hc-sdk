@@ -12,3 +12,5 @@ of accelerator such as GPU/TPU.
   * NumPy
   * PyTorch
   * AWS Braket support is coming...
+* Scheduling
+  * Heterogeneus scheduling for general purpose computing (to be started when some of the base algos are supported by qlib)
