@@ -16,3 +16,11 @@ qlib is a quantum computing library for solving various math/compute problems. W
 ## Modules
 
 The idea is to separate abstraction layer from implementation at a later point when a sufficient number of algorithms is implemneted (sufficient for demonstrating heterogeneous scheduling).
+
+## Draft architecture
+
+![qLib](https://user-images.githubusercontent.com/1936580/126837204-f393d694-cbed-4da1-abf8-aec82c73da9d.png)
+
+## Donations
+
+## Crowd funding
