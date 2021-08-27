@@ -1,5 +1,5 @@
-# qlib
-Library of Quantum Algorithms
+# HCLib
+Hybrid Computing Library
 
 qlib is a quantum computing library for solving various math/compute problems. While the focus is on Quantum the idea is to be able to swap out various types of accelerators (Qiskit/IBM Quantum Experience, IonQ, AWS Braket, D-Wave, etc) without changing client code. This is achieved by setting up interfaces on top of known accelerators such as quantum processing units (QPU), tensor processing units (TPU), graphical processing units (GPU), central processing units (CPU), simulators, hardware RNG, and other types of specialized hardware/software modules supporting a given mathematical method.
 
