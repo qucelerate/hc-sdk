@@ -1,7 +1,6 @@
 # QuCelerate SDK
-Hybrid Computing Library
 
-qlib is a quantum computing library for solving various math/compute problems. While the focus is on Quantum the idea is to be able to swap out various types of accelerators (Qiskit/IBM Quantum Experience, IonQ, AWS Braket, D-Wave, etc) without changing client code. This is achieved by setting up interfaces on top of known accelerators such as quantum processing units (QPU), tensor processing units (TPU), graphical processing units (GPU), central processing units (CPU), simulators, hardware RNG, and other types of specialized hardware/software modules supporting a given mathematical method.
+QuCelerate SDK is a hybrid computing software development kit for solving various math/compute problems. While the focus is on Quantum the idea is to be able to swap out various types of accelerators (Qiskit/IBM Quantum Experience, IonQ, AWS Braket, D-Wave, etc) without changing client code. This is achieved by setting up interfaces on top of known accelerators such as quantum processing units (QPU), tensor processing units (TPU), graphical processing units (GPU), central processing units (CPU), simulators, hardware RNG, and other types of specialized hardware/software modules supporting a given mathematical method.
 
 ## Algorithms
 
@@ -11,7 +10,7 @@ qlib is a quantum computing library for solving various math/compute problems. W
   * PyTorch
   * AWS Braket support is coming...
 * Scheduling
-  * Heterogeneous scheduling for general purpose computing (to be started when some of the base algos are supported by qlib)
+  * Heterogeneous scheduling for general purpose computing (to be started when some of the base algos are supported by QuCelerate SDK)
 
 ## Modules
 
@@ -19,7 +18,7 @@ The idea is to separate abstraction layer from implementation at a later point w
 
 ## Draft architecture
 
-![qLib](https://user-images.githubusercontent.com/1936580/126837204-f393d694-cbed-4da1-abf8-aec82c73da9d.png)
+![SDK](https://user-images.githubusercontent.com/1936580/126837204-f393d694-cbed-4da1-abf8-aec82c73da9d.png)
 
 ## Donations
 
